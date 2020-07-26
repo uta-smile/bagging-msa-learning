@@ -18,12 +18,14 @@ smile `pip install smile`
 python -u train.py --aln_dpath='./aln_example' --train_fname='sample.aln' --valid_fname='sample.aln' --model_path=./try01 2>&1 | tee try01.log
 ```
 See comments for all hyper-parameters in `train.py`
+See `./aln_example/sample.aln` for an example of input MSA file.
 
 ## Generate enhanced feature
 ```
 python -u generate_new_feat.py --eval_feat_path='./feat_example/sample2.feat' --save_fpath='./feat_example/new.feat' --model_path='./try01' --epoch=1
 ```
 See comments for all hyper-parameters in `generate_new_feat.py`
+See `./feat_example/sample2.feat` for an example of input feat file.
 
 
 ## Citation:
