@@ -6,8 +6,11 @@ Accurate predictions of protein structure properties, e.g. secondary structure a
 
 ## Requirements:
 cuda 10.2
+
 python 3.6.3
+
 pytorch 1.4.0
+
 smile `pip install smile`
 
 ## Unsupervised model training example
